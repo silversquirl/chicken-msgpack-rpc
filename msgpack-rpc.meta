@@ -1,6 +1,6 @@
 ;; vim: ft=scheme
 
-((license "GPLv3")
+((license "BSD")
  
  (needs msgpack
         socket
