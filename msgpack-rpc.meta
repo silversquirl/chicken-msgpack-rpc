@@ -1,0 +1,11 @@
+;; vim: ft=scheme
+
+((license "GPLv3")
+ 
+ (needs msgpack
+        socket
+        mailbox)
+ 
+ (category net)
+ (author "Samadi van Koten")
+ (synopsis "CHICKEN implementation of msgpack-rpc"))

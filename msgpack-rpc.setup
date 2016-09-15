@@ -1,0 +1,9 @@
+;; vim: ft=scheme
+
+(compile -O3 -d2 -s msgpack-rpc.scm -j msgpack-rpc)
+(compile -O3 -d0 -s msgpack-rpc.import.scm)
+
+(install-extension
+  'msgpack-rpc
+  '("msgpack-rpc.so" "msgpack-rpc.import.so")
+  '((version "0.0.0")))
